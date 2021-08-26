@@ -1,0 +1,45 @@
+Arguments: 
+  C:\node-v14.17.5-win-x64\node.exe C:\Users\dlrbq\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gh-pages
+
+PATH: 
+  C:\Users\dlrbq\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dlrbq\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Ruby27-x64\bin;C:\Users\dlrbq\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\dlrbq\AppData\Local\Programs\Python\Python39;C:\Program Files\jdk-15.0.1\bin;C:\Users\dlrbq\AppData\Local\Microsoft\WindowsApps;C:\Users\dlrbq\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\windows\system32;C:\Users\dlrbq\AppData\Local\atom\bin;C:\Users\dlrbq\AppData\Local\Microsoft\WindowsApps;C:\Users\dlrbq\AppData\Local\GitHubDesktop\bin;C:\Users\dlrbq\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;C:\Program Files\Boot2Docker for Windows;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Ruby27-x64\bin;C:\Users\dlrbq\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\dlrbq\AppData\Local\Programs\Python\Python39;C:\Program Files\jdk-15.0.1\bin;C:\Users\dlrbq\AppData\Local\Microsoft\WindowsApps;C:\Users\dlrbq\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\windows\system32;C:\Users\dlrbq\AppData\Local\atom\bin;C:\Users\dlrbq\AppData\Local\Microsoft\WindowsApps;C:\Users\dlrbq\AppData\Local\GitHubDesktop\bin;C:\Users\dlrbq\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;C:\Program Files\Boot2Docker for Windows;C:\node-v14.17.5-win-x64;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Ruby27-x64\bin;C:\Users\dlrbq\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\dlrbq\AppData\Local\Programs\Python\Python39;C:\Program Files\jdk-15.0.1\bin;C:\Users\dlrbq\AppData\Local\Microsoft\WindowsApps;C:\Users\dlrbq\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\windows\system32;C:\Users\dlrbq\AppData\Local\atom\bin;C:\Users\dlrbq\AppData\Local\Microsoft\WindowsApps;C:\Users\dlrbq\AppData\Local\GitHubDesktop\bin;C:\Users\dlrbq\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;C:\Program Files\Boot2Docker for Windows;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Programming\Gatsby_blog\node_modules\sharp\build\Release\libglib-2.0-0.dll'
+
+npm manifest: 
+  {
+    "name": "gatsby_blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "gatsby": "^3.12.0",
+      "gatsby-cli": "^3.12.0",
+      "gatsby-theme-blog": "^3.0.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
