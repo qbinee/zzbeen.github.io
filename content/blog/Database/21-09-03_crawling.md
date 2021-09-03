@@ -1,6 +1,6 @@
 ---
 title: '개강 1주차 database 첫 과제(1)'
-date: 2021-08-31 20:20
+date: 2021-09-03 10:30
 category: 'Database'
 draft: false
 ---
